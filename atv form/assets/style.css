@@ -1,0 +1,140 @@
+body{
+    background: linear-gradient(to right, rgb(119,4,181), rgb(208,48,187));
+    display: flex;
+    width: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+form{
+    background: #ffff;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    border-radius: 3px;
+    align-items: center;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 35%;
+}
+
+.form-conteudo{
+    align-items: center;
+    position: absolute;
+    
+    display: inline-block;
+    margin-left: 49px;
+
+}
+
+.submit{
+    background: linear-gradient(to right, rgb(119,4,181), rgb(127, 34, 114));
+    color: #ffff;
+    width: 306px;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 3px;
+    border-style: none;
+    margin-right: 100px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.check{
+    padding-top:  20px;
+    cursor: pointer;
+}
+
+
+.btn :first-child{
+    background: rgb(47, 89, 162);
+    color: #ffff;
+    border-radius: 2px;
+    border-style: none;
+    width: 149px;
+    height: 34px;
+    font-weight: bold;
+    background-image: url(facebook.png);
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-size: 34px ;
+    cursor: pointer;
+    padding-left: 10px;
+   
+    
+  
+ 
+
+}
+
+.btn :last-child{
+    background: rgba(69, 159, 237, 0.96);
+    background-image: url(twitter.png);
+    background-repeat: no-repeat;
+    background-size: 34px ;
+    color: #ffff;
+    border-radius: 2px;
+    border-style: none;
+    width: 149px;
+    height: 34px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 8px;
+    font-size: 18px;
+   
+   
+
+}
+
+h2{
+    margin-left: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+span{
+    color: rgb(170, 41, 157);
+    cursor: pointer;
+    
+}
+
+.check span{
+    margin-left:51px ;
+}
+
+p{
+    margin-left: 45px;
+}
+
+.textarea input{
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 34px;
+    margin-top: 20px;
+    
+    
+}
+
+.textarea > input{
+    background-image: url(perfil.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-y: center;
+
+}
+
+.textarea > div > input {
+    background-image: url(cadeado-seguro.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-y: center;
+}
+
+input::placeholder{
+   
+   padding-left: 36px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+}
