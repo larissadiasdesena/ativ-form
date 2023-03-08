@@ -1,0 +1,17 @@
+.section3 h3  {
+    font-weight: bold;
+    margin: 5% 0% 1%;
+}
+
+.section3 p {
+    margin-bottom: 5%;
+}
+
+.section3{
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    color: green;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
